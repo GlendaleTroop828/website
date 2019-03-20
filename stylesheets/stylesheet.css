@@ -119,19 +119,23 @@ a {
   letter-spacing: 38px;
   color: rgba(2, 10, 12, 0.7);
   text-shadow: 1px 1px 5px #a7e7f9, -1px -1px 1px #19a1ce;
+  font-weight: 900;
   }
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 5.25rem; 
+    font-weight: 900;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 4.25rem; 
+    font-weight: 900;} }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 3.25rem; 
+    font-weight: 900;} }
 
 .project-tagline {
   margin-bottom: 2rem;
