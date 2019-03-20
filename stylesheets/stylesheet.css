@@ -72,6 +72,9 @@ a {
   text-align: center;
   background-color: #159957;
   background-image: linear-gradient(120deg, #2161a8, rgb(0, 189, 189));
+  width: 120%;
+  margin-left: -20px;
+  margin-top: -30px;
   }
 
 @media screen and (min-width: 64em) {
