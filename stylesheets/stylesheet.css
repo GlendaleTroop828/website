@@ -9,6 +9,7 @@
     font-weight: bold;
 }
 /* Begin Troopmaster CSS */
+/* transitions to desktop mode @ 1020px */
 html, body {
     background: #ab7e5d;
     color: #fff;
@@ -121,6 +122,10 @@ a {
     background-image: linear-gradient(120deg, #003e01, #789c79);
     margin: -20px;
 }
+
+@media screen and (min-width: 1020px){
+    .page-header {
+        margin-top: -30px; } }
 
 @media screen and (min-width: 64em) {
   .page-header {
