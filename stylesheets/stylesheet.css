@@ -56,6 +56,15 @@ html, body {
     background: #ab7e5d;
 }
 
+.announcement {
+    background-color: #2b4214;
+}
+
+/*<div class="announcements"> added around %ANNOUNCEMENTS% in text editor*/
+.announcements table td {
+    padding: 5px;
+}
+
 @media (max-width:599px) { 
     .footer-content-1, .footer-content-3 { background: #2d0000 }
 	.footer-content-2, .footer-content-4 { background: #2d0000 }
