@@ -9,9 +9,15 @@
     font-weight: bold;
 }
 /* Begin Troopmaster CSS */
+.nav-col, .faux-nav-col {
+    background: #222222;
+    border-right: none;
+}
+
 .logo-col, .faux-logo-col {
     background: #4e4e4e;
     box-shadow: 0 0 1px black inset, 0 0 10px black;
+    border-right: none;
 }
 
 .troop {
@@ -144,11 +150,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.5rem; } }
+    font-size: 1.75rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.5rem; } }
+    font-size: 1.65rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
