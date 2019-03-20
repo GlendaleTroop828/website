@@ -159,7 +159,7 @@ a {
   margin-bottom: 0.1rem;
   font-family: agencyfb;
   letter-spacing: 38px;
-  color: #4a2002e8;
+  color: rgba(0, 0, 0, 0.79);
   text-shadow: 1px 1px 5px #c2f9a7, -1px -1px 1px #64ce19;
   font-weight: 900;
   }
