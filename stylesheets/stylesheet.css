@@ -56,6 +56,21 @@ html, body {
     background: #ab7e5d;
 }
 
+@media (max-width:599px) { 
+    .footer-content-1, .footer-content-3 { background: #2d0000 }
+	.footer-content-2, .footer-content-4 { background: #2d0000 }
+}
+
+@media (min-width:600px) and (max-width:900px) { 
+    .footer-content-1, .footer-content-4 { background: #2d0000 }
+	.footer-content-2, .footer-content-3 { background: #2d0000 }
+}
+
+@media (min-width:901px) { 
+    .footer-content-1, .footer-content-3 { background: #2d0000 }
+	.footer-content-2, .footer-content-4 { background: #2d0000 }
+}
+
 /* End Troopmaster CSS */
 * {
   box-sizing: border-box; }
