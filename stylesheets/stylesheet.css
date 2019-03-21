@@ -80,6 +80,10 @@ html, body {
 	.footer-content-2, .footer-content-4 { background: #2d0000 }
 }
 
+/*Calendar page*/
+.toggle-container{
+  width: 100%;	
+  }
 /* End Troopmaster CSS */
 * {
   box-sizing: border-box; }
