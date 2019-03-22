@@ -74,18 +74,18 @@
   }
 
   @media (max-width:599px) { 
-    .footer-content-1, .footer-content-3 { background: #2d0000 }
-    .footer-content-2, .footer-content-4 { background: #2d0000 }
+    .footer-content-1, .footer-content-3 { background: #480000 }
+    .footer-content-2, .footer-content-4 { background: #480000 }
   }
 
   @media (min-width:600px) and (max-width:900px) { 
-    .footer-content-1, .footer-content-4 { background: #2d0000 }
-    .footer-content-2, .footer-content-3 { background: #2d0000 }
+    .footer-content-1, .footer-content-4 { background: #480000 }
+    .footer-content-2, .footer-content-3 { background: #480000 }
   }
 
   @media (min-width:901px) { 
-    .footer-content-1, .footer-content-3 { background: #2d0000 }
-    .footer-content-2, .footer-content-4 { background: #2d0000 }
+    .footer-content-1, .footer-content-3 { background: #480000 }
+    .footer-content-2, .footer-content-4 { background: #480000 }
   }
 
   /*Calendar page*/
@@ -94,7 +94,50 @@
   }
   
   /* Troopmaster Backend */
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+      color: #00bc8c;
+      background-color: #480000;
+      border: 1px solid #464545;
+      border-bottom-color: transparent;
+      cursor: default;
+    }
+    
+    .nav>li>a:hover, .nav>li>a:focus {
+      text-decoration: none;
+      background-color: #ffffff30;
+    }
+    
+    .viewtab > .row:nth-child(3) {
+      border: solid white 2px !important;
+      background-color: #ffffff17;
+      box-shadow: 0 0 10px black inset;
+    }
+    
+    .label-default {
+      background-color: #480000;
+      color: white;
+    }
+
     ul.jstree-container-ul > li { color: black; }
+    
+    .jstree-default .jstree-hovered {
+      background: #614532;
+      color: white;
+    }
+    
+    .jstree-default .jstree-clicked {
+      background: #ffffff4a;
+      border-radius: 11px;
+      box-shadow: 0 0 5px black;
+      border: solid white 2px;
+      padding-left: 3px;
+    }
+
+    input.jstree-rename-input {
+      background-color: #ffffff00;
+      border: none !important;
+      outline: none;
+    }
   /*End Troopmaster Backend */
 /* End Troopmaster CSS */
 
