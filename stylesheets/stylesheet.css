@@ -16,7 +16,8 @@
 	}
 
 	/* Hide 'New Site' Button in Navigation Tree */
-	.user-wrapper > p > a:first-child{
+	.user-wrapper > p > a:first-child,
+	.user-wrapper > p > span.v-divider:first-child{
 		display: none;
 	}
 
