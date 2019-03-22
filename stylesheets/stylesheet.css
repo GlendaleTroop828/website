@@ -9,81 +9,86 @@
     font-weight: bold;
 }
 /* Begin Troopmaster CSS */
-/* transitions to desktop mode @ 1020px */
-html, body {
-    background: #ab7e5d;
-    color: #fff;
-}
+	/* transitions to desktop mode @ 1020px */
+	html, body {
+			background: #ab7e5d;
+			color: #fff;
+	}
 
-.nav-col, .faux-nav-col {
-    background: #2d0000;
-    border-right: none;
-}
+	/* Hide 'New Site' Button in Navigation Tree */
+	.user-wrapper > p > a:first-child{
+		display: none;
+	}
 
-.logo-col, .faux-logo-col {
-    background: #4a2002;
-    box-shadow: -10px 4px 10px -10px black, 10px 4px 10px -10px black;
-    border-right: none;
-}
+	.nav-col, .faux-nav-col {
+			background: #2d0000;
+			border-right: none;
+	}
 
-.logo-col a {
-    color: rgba(255, 255, 255, 0.5) !important;
-}
+	.logo-col, .faux-logo-col {
+			background: #4a2002;
+			box-shadow: -10px 4px 10px -10px black, 10px 4px 10px -10px black;
+			border-right: none;
+	}
 
-.logo-col a {
-    color: rgba(255, 255, 255, 1) !important;
-}
+	.logo-col a {
+			color: rgba(255, 255, 255, 0.5) !important;
+	}
 
-.troop {
-    font-family: 'Raleway';
-    font-size: 40px;
-    font-weight: 700;
-    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.75), 1px 2px 1px rgba(82, 82, 82, 0.75);
-    color: #000000;
-    opacity: .45;
-}
+	.logo-col a {
+			color: rgba(255, 255, 255, 1) !important;
+	}
 
-.logonumber {
-    font-family: 'Raleway';
-    font-size: 40px;
-    font-weight: 400;
-    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.75), 1px 2px 1px rgba(82, 82, 82, 0.75);
-    color: #000000 !important;
-    opacity: .45;
-}
+	.troop {
+			font-family: 'Raleway';
+			font-size: 40px;
+			font-weight: 700;
+			text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.75), 1px 2px 1px rgba(82, 82, 82, 0.75);
+			color: #000000;
+			opacity: .45;
+	}
 
-.content-col, .faux-content-col {
-    background: #ab7e5d;
-}
+	.logonumber {
+			font-family: 'Raleway';
+			font-size: 40px;
+			font-weight: 400;
+			text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.75), 1px 2px 1px rgba(82, 82, 82, 0.75);
+			color: #000000 !important;
+			opacity: .45;
+	}
 
-.announcement {
-    background-color: #2b4214;
-}
+	.content-col, .faux-content-col {
+			background: #ab7e5d;
+	}
 
-/*<div class="announcements"> added around %ANNOUNCEMENTS% in text editor*/
-.announcements table td {
-    padding: 5px;
-}
+	.announcement {
+			background-color: #2b4214;
+	}
 
-@media (max-width:599px) { 
-    .footer-content-1, .footer-content-3 { background: #2d0000 }
-	.footer-content-2, .footer-content-4 { background: #2d0000 }
-}
+	/*<div class="announcements"> added around %ANNOUNCEMENTS% in text editor*/
+	.announcements table td {
+			padding: 5px;
+	}
 
-@media (min-width:600px) and (max-width:900px) { 
-    .footer-content-1, .footer-content-4 { background: #2d0000 }
-	.footer-content-2, .footer-content-3 { background: #2d0000 }
-}
+	@media (max-width:599px) { 
+			.footer-content-1, .footer-content-3 { background: #2d0000 }
+		.footer-content-2, .footer-content-4 { background: #2d0000 }
+	}
 
-@media (min-width:901px) { 
-    .footer-content-1, .footer-content-3 { background: #2d0000 }
-	.footer-content-2, .footer-content-4 { background: #2d0000 }
-}
+	@media (min-width:600px) and (max-width:900px) { 
+			.footer-content-1, .footer-content-4 { background: #2d0000 }
+		.footer-content-2, .footer-content-3 { background: #2d0000 }
+	}
 
-/*Calendar page*/
-.toggle-container{
-  width: 100%;	
-  }
+	@media (min-width:901px) { 
+			.footer-content-1, .footer-content-3 { background: #2d0000 }
+		.footer-content-2, .footer-content-4 { background: #2d0000 }
+	}
+
+	/*Calendar page*/
+	.toggle-container{
+		width: 100%;	
+		}
 /* End Troopmaster CSS */
 * {
   box-sizing: border-box; }
