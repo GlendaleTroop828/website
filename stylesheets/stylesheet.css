@@ -68,6 +68,10 @@
     background-color: #2b4214;
   }
 
+  .announcements table {
+    margin-bottom: 10px;
+  }
+
   /*<div class="announcements"> added around %ANNOUNCEMENTS% in text editor*/
   .announcements table td {
     padding: 5px;
