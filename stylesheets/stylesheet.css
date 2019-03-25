@@ -28,6 +28,11 @@
     border-right: none;
   }
 
+  /* lock page icon */
+  .fa-lock:before {
+    margin-right: 5px;
+  }
+
   .logo-col, .faux-logo-col {
     background: #4a2002;
     box-shadow: -10px 4px 10px -10px black, 10px 4px 10px -10px black;
