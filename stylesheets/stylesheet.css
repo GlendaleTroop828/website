@@ -125,10 +125,7 @@
       box-shadow: 0 0 10px black inset;
     }
 
-    @media (min-width: 992px)
-    .col-md-2 {
-        width: 25%;
-    }
+    @media (min-width: 992px){ .col-md-2 { width: 25%; } }
     
     .label-default {
       background-color: #480000;
