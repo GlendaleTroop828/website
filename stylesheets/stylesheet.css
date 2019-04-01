@@ -229,6 +229,8 @@ a:hover {
 
 @media screen and (min-width: 1020px){.page-header { margin-top: -30px; } }
 
+@media screen and (min-width: 1900px){.page-header { margin-top: -40px; } }
+
 @media screen and (min-width: 64em) {.page-header { padding: 5rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {.page-header { padding: 3rem 4rem; } }
@@ -277,6 +279,16 @@ a:hover {
 @media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.65rem; } }
 
 @media screen and (max-width: 42em) {.project-tagline { font-size: 1.5rem; } }
+
+/* eliminate right-hand border for each column */
+.logo-col, .faux-logo-col, .nav-col, .faux-nav-col, .content-col, .faux-content-col {
+    border-right: none;
+}
+
+/* footer and navigation columns */
+.footer-col, .faux-footer-col { background: #480000; }
+@media (min-width: 1900px) { .nav-col, .footer-col { padding-top: 0px; } }
+
 
 .aspect-ratio-box {
   height: 0;
