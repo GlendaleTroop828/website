@@ -297,16 +297,16 @@ a:hover {
   position: relative;
 }
 .16x9 {
-  padding-top: 56.25%;
+  padding-top: 56.25% !important;
 }
 .8x5 {
-  padding-top: 62.5%;
+  padding-top: 62.5% !important;
 }
 .3x2 {
-  padding-top: 66.66%;
+  padding-top: 66.66% !important;
 }
 .4x3 {
-  padding-top: 75%;
+  padding-top: 75% !important;
 }
 
 .aspect-ratio-box-inside {
