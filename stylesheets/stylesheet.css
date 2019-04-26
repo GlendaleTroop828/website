@@ -40,6 +40,7 @@
   .nav-col, .faux-nav-col {
     background: #480000;
     border-right: none;
+    box-shadow: -10px 0 12px -10px black inset;
   }
 
   /* lock page icon */
@@ -49,7 +50,6 @@
 
   .logo-col, .faux-logo-col {
     background: #4a2002;
-    box-shadow: -10px 4px 10px -10px black, 10px 4px 10px -10px black;
     border-right: none;
   }
 
