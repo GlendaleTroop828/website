@@ -105,9 +105,6 @@
     color: black;
   }
 
-  #announcements
-
-
   @media (max-width:599px) { 
     .footer-content-1, .footer-content-3 { background: #480000 }
     .footer-content-2, .footer-content-4 { background: #480000 }
