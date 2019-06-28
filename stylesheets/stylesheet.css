@@ -43,6 +43,42 @@
     box-shadow: -10px 0 12px -10px black inset;
   }
 
+  /* MOBILE NAVIGATION MENU */
+  @media (max-width: 1019px) {
+    
+    .menu-open .content-col {
+        border-left: none;
+    }
+
+    .menu-open .content-col {
+        left: 100%;
+        padding: 0;
+    }
+
+    .menu-open .nav-col {
+        padding-left: 50px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-col a {
+        font-size: 20px;
+    }
+    
+    .nav-col li a {
+        font-size: 20px;
+    }
+    
+    .nav-col li li a {
+        font-size: 20px;
+    }
+    
+  }
+  /* END MOBILE NAVIGATION MENU */
+
   /* lock page icon */
   .fa-lock:before {
     margin-right: 5px;
