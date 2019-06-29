@@ -224,8 +224,15 @@
 }
 
 .driveable > a > img {
-    width: 100px;
+    width: 200px;
     border-radius: 6px;
+}
+
+@media (max-width: 1019px) {
+  .driveable > a > img {
+    width: 99px;
+    border-radius: 6px;
+  }
 }
 
 .driveable.embed-folder{
