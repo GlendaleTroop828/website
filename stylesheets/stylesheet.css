@@ -43,6 +43,8 @@
     box-shadow: -10px 0 12px -10px black inset;
   }
 
+
+
   /* MOBILE NAVIGATION MENU */
   @media (max-width: 1019px) {
     
@@ -129,6 +131,11 @@
   #announcements table {
     border: none !important;
     margin-bottom: 10px;
+  }
+
+  #announcements a {
+    color: #ec0000 !important;
+    font-weight: bold;
   }
 
   div#announcements table tr:first-of-type td {
