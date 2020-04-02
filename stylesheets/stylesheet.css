@@ -23,6 +23,17 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Regular.TTF);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Bold.TTF);
+  font-weight: bold;
+}
+
 
 /* Begin Troopmaster CSS */
   /* transitions to desktop mode @ 1020px */
